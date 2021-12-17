@@ -9,12 +9,8 @@
 </p>
 
 ## Usage
-
-1. Clone this repository locally
-2. Open the app's settings
-3. Select `import theme` and browse to where you cloned Catppuccin
-4. Select it
+1. move the zathurarc.catppuccin file into the "~ / .config / zathura" folder and rename it "zathurarc" 
 
 ## 💝 Thanks to
 
-- [Human](https://github.com/catppuccin)
+- [Rompicapo](https://github.com/Rompicapo)
