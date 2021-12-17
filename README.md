@@ -1,5 +1,5 @@
 <p align="center">
-  <h2 align="center">😸 Catppuccin for AwesomeApp</h2>
+  <h2 align="center">😸 Catppuccin for Zathura</h2>
 </p>
 
 <p align="center">Warm mid-tone dark theme to show off your vibrant self!</p>
