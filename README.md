@@ -9,7 +9,9 @@
 </p>
 
 ## Usage
-1. move the zathurarc.catppuccin file into the "~ / .config / zathura" folder and rename it "zathurarc" 
+1. Clone this repository locally
+2. Copy `catppuccin` to `$HOME/.config/zathura/`
+3. In your `zathurarc`, add the following to the bottom: `include catppuccin`
 
 ## 💝 Thanks to
 
