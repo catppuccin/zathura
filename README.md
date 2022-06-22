@@ -18,12 +18,13 @@
 ## Usage
 
 1. Clone this repository locally
-2. Copy `catppuccin` to `$HOME/.config/zathura/`
-3. In your `zathurarc`, add the following to the bottom: `include catppuccin`
+2. Copy selected flavour file from `src` folder to `$HOME/.config/zathura/`
+3. In your `zathurarc`, add the following to the bottom: `include catppuccin-[flavour]`, i.e. `include catppuccin-mocha`
 
 ## 💝 Thanks to
 
--   [Lokesh Krishna](https://github.com/lokesh-krishna)
+- [Lokesh Krishna](https://github.com/lokesh-krishna)
+- [elkrien](https://github.com/elkrien)
 
 &nbsp;
 
