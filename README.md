@@ -12,8 +12,27 @@
 </p>
 
 <p align="center">
-  <img src="assets/ss.png"/>
+  <img src="https://raw.githubusercontent.com/catppuccin/zathura/main/assets/zathura.png"/>
 </p>
+
+## Previews
+
+<details>
+<summary>🌻 Latte</summary>
+  <img src="https://raw.githubusercontent.com/catppuccin/zathura/main/assets/zathura-latte.png"/>
+</details>
+<details>
+<summary>🪴 Frappé</summary>
+  <img src="https://raw.githubusercontent.com/catppuccin/zathura/main/assets/zathura-frappe.png"/>
+</details>
+<details>
+<summary>🌺 Macchiato</summary>
+  <img src="https://raw.githubusercontent.com/catppuccin/zathura/main/assets/zathura-macchiato.png"/>
+</details>
+<details>
+<summary>🌿 Mocha</summary>
+  <img src="https://raw.githubusercontent.com/catppuccin/zathura/main/assets/zathura-mocha.png"/>
+</details>
 
 ## Usage
 
