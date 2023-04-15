@@ -21,6 +21,7 @@ set notification-warning-fg	  "#FAE3B0"
 set inputbar-fg			          "#4C4F69"
 set inputbar-bg 		          "#CCD0DA"
 
+set recolor                   "true"
 set recolor-lightcolor		    "#EFF1F5"
 set recolor-darkcolor		      "#4C4F69"
 
