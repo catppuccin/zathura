@@ -1,3 +1,5 @@
+set recolor true
+
 set default-fg                "#CDD6F4"
 set default-bg 			          "#1E1E2E"
 
