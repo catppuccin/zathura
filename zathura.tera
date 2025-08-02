@@ -1,0 +1,48 @@
+---
+whiskers:
+  version: ^2.5.1
+  matrix:
+    - flavor
+  filename: "themes/catppuccin-{{ flavor.identifier }}"
+---
+{%- macro rgba(c, a=1) -%}
+rgba({{ c.rgb.r }},{{ c.rgb.g }},{{ c.rgb.b }},{{a}})
+{%- endmacro rgb -%}
+
+set default-fg                {{ self::rgba(c=text) }}
+set default-bg                {{ self::rgba(c=base) }}
+
+set completion-bg             {{ self::rgba(c=surface0) }}
+set completion-fg             {{ self::rgba(c=text) }}
+set completion-highlight-bg   {{ self::rgba(c=mauve) }}
+set completion-highlight-fg   {{ self::rgba(c=base) }}
+set completion-group-bg       {{ self::rgba(c=mantle) }}
+set completion-group-fg       {{ self::rgba(c=text) }}
+
+set statusbar-fg              {{ self::rgba(c=text) }}
+set statusbar-bg              {{ self::rgba(c=crust) }}
+set inputbar-fg               {{ self::rgba(c=text) }}
+set inputbar-bg               {{ self::rgba(c=base) }}
+
+set notification-bg           {{ self::rgba(c=base) }}
+set notification-fg           {{ self::rgba(c=text) }}
+set notification-error-bg     {{ self::rgba(c=base) }}
+set notification-error-fg     {{ self::rgba(c=red) }}
+set notification-warning-bg   {{ self::rgba(c=base) }}
+set notification-warning-fg   {{ self::rgba(c=yellow) }}
+
+set recolor                   "true"
+set recolor-lightcolor        {{ self::rgba(c=base) }}
+set recolor-darkcolor         {{ self::rgba(c=text) }}
+
+set index-fg                  {{ self::rgba(c=text) }}
+set index-bg                  {{ self::rgba(c=base) }}
+set index-active-fg           {{ self::rgba(c=text) }}
+set index-active-bg           {{ self::rgba(c=surface0) }}
+
+set render-loading-bg         {{ self::rgba(c=base) }}
+set render-loading-fg         {{ self::rgba(c=text) }}
+
+set highlight-color           {{ self::rgba(c=overlay2,a=0.3) }}
+set highlight-fg              {{ self::rgba(c=text) }}
+set highlight-active-color    {{ self::rgba(c=mauve,a=0.3) }}
